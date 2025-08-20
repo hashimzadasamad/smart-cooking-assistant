@@ -15,11 +15,19 @@ Smart Cooking AI is a voice-controlled cooking assistant built with Python. It l
 
 smart-cooking-ai/
 │
+
 ├── main.py # Entry point: orchestrates the assistant flow
+
 ├── voice_input.py # Records and transcribes your voice to text using OpenAI Whisper
+
 ├── ai_logic.py # Sends the transcribed query to ChatGPT and retrieves a recipe
+
 ├── eleven_tts.py # Converts recipe text to spoken audio using ElevenLabs streaming
+
 ├── ui.py # Graphical interface (Tkinter-based) with step navigation
+
 ├── .env # Environment variables for API keys (not included in repo)
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # Project documentation
