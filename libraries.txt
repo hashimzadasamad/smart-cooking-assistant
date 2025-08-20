@@ -1,0 +1,37 @@
+Phase 1 Goals
+
+Simple desktop app with microphone input, screen output, and voice output
+
+Powered by Whisper + ChatGPT + TTS (e.g., pyttsx3 or Google TTS)
+
+🧱 Step 1: Environment Setup
+
+✅ Required libraries (install them via pip):
+
+Run these in your terminal or command prompt:
+
+pip install openai pip install pyttsx3 pip install speechrecognition pip install pyaudio pip install tkinter pip install python-dotenv
+
+Notes:
+
+openai → For ChatGPT API
+
+pyttsx3 → Offline TTS engine (works well on Windows)
+
+speechrecognition + pyaudio → To record your voice (mic input)
+
+tkinter → For the GUI (built-in with Python on Windows)
+
+python-dotenv → To load your OpenAI API key securely from a .env file
+
+Optional (for better TTS later):
+
+If you want better-sounding voices, we can later switch to gTTS or ElevenLabs
+
+
+
+
+key:
+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
+elevenlabs:
+sk_4abe1ac392c1a2b0100abc59bc6b8849d2e6bde76e581f08
